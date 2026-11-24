@@ -1,0 +1,11 @@
+use std::collections::HashSet;
+
+pub fn check(candidate: &str) -> bool {
+    let mut set = HashSet::new();
+
+    candidate
+        .to_uppercase()
+        .chars()
+        .filter(|&c| c != '-' && c != ' ')
+        .all(|c| set.insert(c))
+}

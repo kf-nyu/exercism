@@ -1,0 +1,30 @@
+# Rust
+target/
+
+# Python
+__pycache__/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.pyc
+
+# C++
+build/
+cmake-build-*/
+*.o
+*.out
+*.dSYM/
+
+# macOS
+.DS_Store
+
+# Exercism personal metadata
+**/.exercism/metadata.json
+
+# Credentials
+.env
+.env.*
+
+# Personal experimentation
+rust/misc/
